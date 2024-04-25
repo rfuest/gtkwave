@@ -4,6 +4,7 @@ libgtkwave_tests = [
     'gw-color',
     'gw-marker',
     'gw-named-markers',
+    'gw-process-filter',
     'gw-project',
     'gw-stems',
 ]

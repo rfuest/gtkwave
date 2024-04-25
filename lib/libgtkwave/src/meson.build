@@ -4,6 +4,7 @@ libgtkwave_public_sources = [
     'gw-color.c',
     'gw-marker.c',
     'gw-named-markers.c',
+    'gw-process-filter.c',
     'gw-project.c',
     'gw-stems.c',
     'gw-time.c',
@@ -22,6 +23,7 @@ libgtkwave_public_headers = [
     'gw-hist-ent.h',
     'gw-marker.h',
     'gw-named-markers.h',
+    'gw-process-filter.h',
     'gw-project.h',
     'gw-stems.h',
     'gw-time.h',
@@ -36,6 +38,7 @@ libgtkwave_private_sources = [
 libgtkwave_dependencies = [
     glib_dep,
     gobject_dep,
+    gio_dep,
 ]
 
 if get_option('experimental_plugin_support')
